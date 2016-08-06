@@ -1,0 +1,607 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* END OF RESET */
+
+
+/* HEADER */
+
+body {
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.mainDiv {
+    margin: auto;
+    width: 730px;
+    background-color: #edeff0;
+    padding: 10px 15px 20px 15px;
+    border-radius: 4px;
+    padding-right: 0px;
+}
+
+.leftSide {
+    width: 78%;
+    display: inline-block;
+}
+
+.icona1 {
+    max-height: 20px;
+    margin-right: 8px;
+}
+
+.nameText {
+    border: none;
+    resize: none;
+    background-color: #edeff0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #515151;
+    line-height: 20px;
+    padding: 0px;
+    width: 600px;
+}
+
+.nameText:focus {
+    background-color: white;
+    outline: none;
+    border-radius: 3px;
+    width: 600px;
+}
+
+.exit {
+    position: relative;
+    max-height: 16px;
+    margin-left: 55px;
+    padding: 4px;
+    top: 0px;
+    padding-right: 10px;
+}
+
+.headerp {
+    color: #8e8e8d;
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+
+/*LABELS*/
+
+.labels {
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.lab {
+    color: #8e8e8d;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.lab2 {
+    padding-left: 35px;
+    color: #8e8e8d;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.labelButton {
+    border: none;
+    border-radius: 3px;
+    padding: 7px 8px 7px 8px;
+    background-color: #0079bf;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 0 2px #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.plus {
+    max-height: 10px;
+}
+
+.labelButton2 {
+    border: none;
+    border-radius: 3px;
+    background-color: #e2e4e6;
+    padding: 10px 10px 9px 10px;
+}
+
+.editas {
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #8e8e8d;
+}
+
+.edit {
+    display: inline-block;
+    max-height: 14px;
+    vertical-align: middle;
+}
+
+.editClass {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+
+/* CHECKLIST */
+
+.checkicon {
+    max-width: 21px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.checkList {
+    margin-top: 33px;
+}
+
+.checkList h2 {
+    display: inline-block;
+    font-weight: 700;
+    color: #515151;
+    line-height: 30px;
+    padding-right: 240px;
+
+}
+
+.checkList .hh {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #8e8e8d;
+}
+
+.checkList .checkbaras {
+    width: 510px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkList .proc {
+    font-size: 12px;
+    display: inline-block;
+    color: #8e8e8d;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+/*COMMENT */
+
+.comments h2 {
+    display: inline-block;
+    font-weight: 700;
+    color: #515151;
+    line-height: 30px;
+
+    padding-bottom: 5px;
+}
+
+.icona2,
+.icona3 {
+    margin-left: 5px;
+    max-height: 15px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.icona3 {
+    max-height: 18px;
+}
+
+.bigFace {
+    max-height: 30px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.commentText {
+    background-color: white;
+    outline: none;
+    border-radius: 3px;
+    width: 495px;
+    border: none;
+    resize: none;
+
+    font-size: 14px;
+    color: #515151;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px #dddddd;
+}
+
+::-webkit-input-placeholder {
+    color: #8e8e8d;
+}
+
+.comm {
+    position: relative;
+}
+
+.tic1,
+.tic2,
+.tic3,
+.tic4 {
+    max-height: 13px;
+    position: absolute;
+}
+
+.tic1 {
+    right: 155px;
+    bottom: 60px;
+}
+
+.tic2 {
+    right: 115px;
+    bottom: 60px;
+}
+
+.tic3 {
+    right: 75px;
+    bottom: 60px;
+}
+
+.tic4 {
+    right: 35px;
+    bottom: 60px;
+}
+
+
+/*CHECK BOXAI VEIKIANTYS */
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+input[type=checkbox] + .label-text {
+    color: #515151;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.inputWrap {
+    padding-bottom: 10px;
+}
+
+input[type=checkbox]:checked + .label-text {
+    color: #8e8e8d;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.mark {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.sendB {
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e2e4e6;
+    padding: 8px 20px 8px 20px;
+    color: #8e8e8d;
+}
+
+
+/*FOOTER*/
+
+.lastS h2 {
+    display: inline-block;
+    font-weight: 700;
+    color: #515151;
+    line-height: 30px;
+ 
+    padding-bottom: 20px;
+}
+
+.bigFace2 {
+    max-height: 28px;
+    display: inline-block;
+        vertical-align: top;
+}
+
+.rig {
+    width: 90%;
+    display: inline-block;
+    margin-left: 5px;
+    border-bottom: 1px solid #d5dadc;
+    padding-bottom: 15px;
+}
+
+.rig h3 {
+    font-size: 14px;
+    color: #515151;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.rig button {
+    width: 180px;
+    display: block;
+    background-color: #fdfdfd;
+    border: 1px solid #e2e4e6;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #515151;
+    box-shadow: 2px 1px 1px 0px #dddddd;
+    
+}
+.rig p {
+font-size: 12px;
+ 
+    color: #8e8e8d;
+}
+
+.miniface{
+    max-height: 20px;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.rSide {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+    
+}
+
+.rSide p {
+   margin-top: 5px;
+    border-bottom: 1px solid #d5dadc;
+    padding-bottom: 13px;
+    font-size: 14px;
+    padding-right: 80px;
+    color: #515151;
+}
+
+.rSide p:last-child{
+    border-bottom: none;
+}
+
+.rSide p:nth-child(2),
+.rSide p:nth-child(3) {
+    padding-top: 8px;
+}
+
+
+.lSide {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+.name {
+    font-size: 14px;
+    color: #515151;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.minutes {
+    text-decoration: none;
+    font-size: 12px;
+ 
+    color: #8e8e8d;
+    
+}
+
+
+
+
+
+
+/* RIGHTSIDE */
+
+.rightSide {
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.rightSide .wrapper {
+    width: 70%;
+}
+
+.rightSide button img {
+    max-width: 13px;
+    padding-right: 5px;
+}
+
+.rightSide h2 {
+    font-weight: 700;
+    color: #515151;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.rightSide button {
+    width: 140px;
+    display: block;
+    background-color: #fdfdfd;
+    border: 1px solid #e2e4e6;
+    border-radius: 3px;
+    text-align: left;
+    padding: 7px 0px 7px 7px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #515151;
+}
+
+#sub {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#sub:after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid #d5dadc;
+}
+
+.rightSide p {
+    margin-top: 30px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #8e8e8d;
+}
